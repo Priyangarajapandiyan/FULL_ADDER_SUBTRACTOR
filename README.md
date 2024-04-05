@@ -71,7 +71,7 @@ module exp4(diff,carry,a,b,c);
 **RTL Schematic**
 ## RTL Schematic Full Adder:
 ![image](https://github.com/Priyangarajapandiyan/FULL_ADDER_SUBTRACTOR/assets/144872535/8a59b678-9efc-4f28-9ee8-4dd095456682)
-## full subractor
+## full subractor :
 ![image](https://github.com/Priyangarajapandiyan/FULL_ADDER_SUBTRACTOR/assets/144872535/6a7f24b8-dfb7-409f-bfa2-60ea6e5c4680)
 
 **Output Timing Waveform**
