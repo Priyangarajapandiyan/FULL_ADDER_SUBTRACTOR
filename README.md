@@ -58,14 +58,18 @@ Borrow out = A'Bin + A'B + BBin
  xor(sum,a,b,c);
  assign carry=a&b | b&c | a&c;
  endmodule
+```
  ## full subractor:
+ ```
 module exp4(diff,carry,a,b,c);
  input a,b,c;
  output diff,carry;
  xor(diff,a,b,c);
  assign carry= (~a)&c | (~a)&b | (b&c);
- endmodule 
+ endmodule
+```
 **RTL Schematic**
+## RTL Schematic Full Adder:
 ![image](https://github.com/Priyangarajapandiyan/FULL_ADDER_SUBTRACTOR/assets/144872535/8a59b678-9efc-4f28-9ee8-4dd095456682)
 ## full subractor
 ![image](https://github.com/Priyangarajapandiyan/FULL_ADDER_SUBTRACTOR/assets/144872535/6a7f24b8-dfb7-409f-bfa2-60ea6e5c4680)
@@ -75,7 +79,7 @@ module exp4(diff,carry,a,b,c);
 ![image](https://github.com/Priyangarajapandiyan/FULL_ADDER_SUBTRACTOR/assets/144872535/1f78e949-8648-4e5d-8e3c-e6a0faddb5a9)
 ## full subractor:
 ![image](https://github.com/Priyangarajapandiyan/FULL_ADDER_SUBTRACTOR/assets/144872535/653d882b-e645-4aa6-b6b4-a791e7101582)
-```
+
 
 **Result:**
 
